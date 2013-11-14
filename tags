@@ -1,0 +1,150 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AND	include/tag.h	12;"	d
+BASIC	include/tag.h	13;"	d
+BREAK	include/tag.h	14;"	d
+CC	Makefile	/^CC = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -c -g$/;"	m
+DO	include/tag.h	15;"	d
+ELSE	include/tag.h	16;"	d
+ENV_SIZE	include/env.h	15;"	d
+EQ	include/tag.h	17;"	d
+Env_entry	env.c	/^static env_entry Env_entry(token t,id i){$/;"	f	file:
+Enviroment	env.c	/^enviroment Enviroment(enviroment e){$/;"	f
+FALSE	include/tag.h	18;"	d
+False	global.c	/^token and,or,eq,ne,le,ge,minus,True,False,tmp;$/;"	v
+GE	include/tag.h	19;"	d
+HASH_SIZE	include/hash.h	12;"	d
+ID	include/tag.h	20;"	d
+IF	include/tag.h	21;"	d
+INDEX	include/tag.h	22;"	d
+Id	id.c	/^id Id(token t,var_type p,int used){$/;"	f
+LD	Makefile	/^LD = gcc$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = -o$/;"	m
+LE	include/tag.h	23;"	d
+MAX_LEN	lexer.c	18;"	d	file:
+MINUS	include/tag.h	24;"	d
+NE	include/tag.h	25;"	d
+NUM	include/tag.h	26;"	d
+Num	token.c	/^token Num(int v){$/;"	f
+OR	include/tag.h	27;"	d
+REAL	include/tag.h	28;"	d
+Real	token.c	/^token Real(float x){$/;"	f
+TEMP	include/tag.h	29;"	d
+TRUE	include/tag.h	30;"	d
+TYPE_CHAR	global.c	/^var_type TYPE_INT,TYPE_CHAR,TYPE_FLOAT;$/;"	v
+TYPE_FLOAT	global.c	/^var_type TYPE_INT,TYPE_CHAR,TYPE_FLOAT;$/;"	v
+TYPE_INT	global.c	/^var_type TYPE_INT,TYPE_CHAR,TYPE_FLOAT;$/;"	v
+Token	token.c	/^token Token(char c){$/;"	f
+True	global.c	/^token and,or,eq,ne,le,ge,minus,True,False,tmp;$/;"	v
+Type	type.c	/^var_type Type(char* s,int t,int w){$/;"	f
+WHILE	include/tag.h	31;"	d
+Word	token.c	/^token Word(char* lexme,int tag){$/;"	f
+_ENV_H_	include/env.h	13;"	d
+_GLOBAL_H_	include/global.h	13;"	d
+_HASH_H_	include/hash.h	10;"	d
+_INTER_H_	include/inter.h	10;"	d
+_PARSER_H_	include/parser.h	10;"	d
+_TAG_H_	include/tag.h	10;"	d
+_TOKEN_H_	include/token.h	10;"	d
+_TYPE_H_	include/type.h	10;"	d
+_entry	include/hash.h	/^struct _entry{$/;"	s
+_env_entry	include/env.h	/^struct _env_entry{$/;"	s
+_enviroment	include/env.h	/^struct _enviroment{$/;"	s
+_expr	parser.c	/^int _expr(){$/;"	f
+_id	include/inter.h	/^struct _id{$/;"	s
+_token	include/token.h	/^struct _token{$/;"	s
+_type	include/type.h	/^struct _type{$/;"	s
+and	global.c	/^token and,or,eq,ne,le,ge,minus,True,False,tmp;$/;"	v
+assign	parser.c	/^void assign(){$/;"	f
+block	parser.c	/^void block(){$/;"	f
+boolean	parser.c	/^int boolean(){$/;"	f
+clear_hashtable	hash.c	/^void clear_hashtable(hashtable ht){$/;"	f
+decls	parser.c	/^void decls(){$/;"	f
+detail	include/token.h	/^	}detail;$/;"	m	struct:_token	typeref:union:_token::__anon1
+dims	parser.c	/^void dims(){$/;"	f
+dummy	include/token.h	/^		char dummy;$/;"	m	union:_token::__anon1
+entry	include/hash.h	/^typedef struct _entry* entry;$/;"	t	typeref:struct:_entry
+env_entry	include/env.h	/^typedef struct _env_entry* env_entry;$/;"	t	typeref:struct:_env_entry
+env_loc	env.c	/^static int env_loc(char* s){$/;"	f	file:
+enviroment	include/env.h	/^typedef struct _enviroment* enviroment;$/;"	t	typeref:struct:_enviroment
+envtable	include/env.h	/^typedef env_entry* envtable;$/;"	t
+eq	global.c	/^token and,or,eq,ne,le,ge,minus,True,False,tmp;$/;"	v
+equality	parser.c	/^int equality(){$/;"	f
+error	parser.c	/^static inline void error(char* s){$/;"	f	file:
+factor	parser.c	/^int factor(){$/;"	f
+ge	global.c	/^token and,or,eq,ne,le,ge,minus,True,False,tmp;$/;"	v
+gen	parser.c	45;"	d	file:
+gencode	parser.c	/^static inline void gencode(char* code){$/;"	f	file:
+get_from_env	env.c	/^id get_from_env(enviroment e,token t){$/;"	f
+get_from_hashtable	hash.c	/^token get_from_hashtable(hashtable ht,char* str){$/;"	f
+get_hashcode	hash.c	/^static int get_hashcode(char* str){$/;"	f	file:
+hashtable	include/hash.h	/^typedef entry* hashtable;$/;"	t
+i	include/env.h	/^	id i;$/;"	m	struct:_env_entry
+id	include/inter.h	/^typedef struct _id* id;$/;"	t	typeref:struct:_id
+init_hashtable	hash.c	/^hashtable init_hashtable(){$/;"	f
+init_system	global.c	/^void init_system(){$/;"	f
+isequal	type.c	16;"	d	file:
+isnumeric	type.c	/^static int isnumeric(var_type p){$/;"	f	file:
+join	parser.c	/^int join(){$/;"	f
+label	parser.c	/^static int label = 0;$/;"	v	file:
+le	global.c	/^token and,or,eq,ne,le,ge,minus,True,False,tmp;$/;"	v
+lexme	lexer.c	/^static char lexme[MAX_LEN] = {0};$/;"	v	file:
+line	lexer.c	/^int line = 1;$/;"	v
+look	parser.c	/^static token look;$/;"	v	file:
+main	main.c	/^int main(){$/;"	f
+main	test.c	/^int main(){$/;"	f
+match	parser.c	/^static inline void match(int t){$/;"	f	file:
+max	type.c	/^var_type max(var_type p1,var_type p2){$/;"	f
+minus	global.c	/^token and,or,eq,ne,le,ge,minus,True,False,tmp;$/;"	v
+move	parser.c	/^static inline void move()$/;"	f	file:
+name	include/inter.h	/^	char* name;$/;"	m	struct:_id
+name	include/token.h	/^		struct {char* name;int width;} type;$/;"	m	struct:_token::__anon1::__anon2
+name	include/type.h	/^	char* name;$/;"	m	struct:_type
+ne	global.c	/^token and,or,eq,ne,le,ge,minus,True,False,tmp;$/;"	v
+next	include/env.h	/^	struct _env_entry* next;$/;"	m	struct:_env_entry	typeref:struct:_env_entry::_env_entry
+next	include/env.h	/^	struct _enviroment* next;$/;"	m	struct:_enviroment	typeref:struct:_enviroment::_enviroment
+next	include/hash.h	/^	struct _entry* next;$/;"	m	struct:_entry	typeref:struct:_entry::_entry
+next_c	lexer.c	/^int next_c(char c){$/;"	f
+next_char	lexer.c	/^void next_char(){$/;"	f
+num	include/token.h	/^		int num;$/;"	m	union:_token::__anon1
+offset	parser.c	/^int offset(id a){$/;"	f
+or	global.c	/^token and,or,eq,ne,le,ge,minus,True,False,tmp;$/;"	v
+p	include/inter.h	/^	var_type p;$/;"	m	struct:_id
+peek	lexer.c	/^static char peek = ' ';$/;"	v	file:
+print_token	token.c	/^void print_token(token t){$/;"	f
+program	parser.c	/^void program(){$/;"	f
+put_in_env	env.c	/^void put_in_env(enviroment e,token t,id i){$/;"	f
+put_in_hashtable	hash.c	/^void put_in_hashtable(hashtable ht,token t){$/;"	f
+real	include/token.h	/^		float real;$/;"	m	union:_token::__anon1
+rel	parser.c	/^int rel(){$/;"	f
+release	hash.c	/^static void release(entry e){$/;"	f	file:
+scan	lexer.c	/^token scan(){$/;"	f
+stmt	parser.c	/^void stmt(){$/;"	f
+stmts	parser.c	/^void stmts(){$/;"	f
+symbol	global.c	/^hashtable symbol;$/;"	v
+t	include/env.h	/^	token t;$/;"	m	struct:_env_entry
+t	include/hash.h	/^	token t;$/;"	m	struct:_entry
+tab	include/env.h	/^	envtable tab;$/;"	m	struct:_enviroment
+tag	include/token.h	/^	int tag;$/;"	m	struct:_token
+tag	include/type.h	/^	int tag;$/;"	m	struct:_type
+temp	parser.c	/^static int temp = 0;$/;"	v	file:
+term	parser.c	/^int term(){$/;"	f
+tmp	global.c	/^token and,or,eq,ne,le,ge,minus,True,False,tmp;$/;"	v
+token	include/token.h	/^typedef struct _token* token;$/;"	t	typeref:struct:_token
+token_equal	token.c	/^int token_equal(token t1,token t2){$/;"	f
+top	parser.c	/^static enviroment top = NULL;$/;"	v	file:
+type	include/token.h	/^		struct {char* name;int width;} type;$/;"	m	union:_token::__anon1	typeref:struct:_token::__anon1::__anon2
+type	parser.c	/^var_type type(){$/;"	f
+unary	parser.c	/^int unary(){$/;"	f
+used	include/inter.h	/^	int used;$/;"	m	struct:_id
+used	parser.c	/^static int used = 0;$/;"	v	file:
+var_type	include/token.h	/^typedef struct _token* var_type;$/;"	t	typeref:struct:_token
+var_type	include/type.h	/^typedef struct _type* var_type;$/;"	t	typeref:struct:_type
+width	include/token.h	/^		struct {char* name;int width;} type;$/;"	m	struct:_token::__anon1::__anon2
+width	include/type.h	/^	int width;$/;"	m	struct:_type
+word	include/token.h	/^		char* word;$/;"	m	union:_token::__anon1
