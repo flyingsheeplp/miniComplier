@@ -1,28 +1,2 @@
 int a
 int b
-int c
-t0 = 10
-a = t0
-t1 = 20
-b = t1
-t2 = a
-t4 = b
-t3 = t2 + t4
-if false t3 goto L0
-t5 = b
-t7 = a
-t6 = t5 - t7
-c = t6
-L0:
-t8 = b
-t10 = a
-t9 = t8 + t10
-c = t9
-t11 = c
-L1:
-t12 = c
-t14 = a
-t13 = t12 + t14
-c = t13
-if true t11 goto L1
-L2:

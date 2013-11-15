@@ -173,8 +173,10 @@ void stmt(){
 			match(';');
 		case '{':
 			block();
+			break;
 		default:
 			assign();
+			break;
 	}
 }
 
