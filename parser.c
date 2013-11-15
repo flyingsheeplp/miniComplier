@@ -64,10 +64,6 @@ int factor();
 int offset(id a);
 void init();
 
-void mylog(char* s){
-	printf("%s\n",s);
-
-}
 //program -> block
 void program(){
 	move();
